@@ -7,6 +7,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Invoca la funzione qui e stampa il risultato in console
+function letteraIniziale(array, lettera) {
+    return array.filter((element) => element[0].toLowerCase() === lettera.toLowerCase());
+}
+console.log(letteraIniziale(names, "L"));
 
 
 
