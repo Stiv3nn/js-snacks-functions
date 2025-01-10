@@ -4,14 +4,21 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-
-
-// Invoca la funzione qui e stampa il risultato in console
 function saluto(nome){
     return `Ciao ${nome}`;
 }
 
+// Invoca la funzione qui e stampa il risultato in console
 console.log(saluto(userName));
 
 
 //Risultato atteso se si passa 'Mario': // ciao Mario
+
+
+//VERSIONE ARROW FUNCTION
+
+//dichiara la funzione qui
+const saluto = (nome) => `Ciao ${nome}`;
+
+// Invoca la funzione qui e stampa il risultato in console
+console.log(saluto(userName));
